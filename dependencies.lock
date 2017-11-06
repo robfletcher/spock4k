@@ -1,0 +1,104 @@
+{
+    "compile": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "compileClasspath": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "default": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "kapt": {
+        "org.jetbrains.kotlin:kotlin-annotation-processing": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "kaptTest": {
+        "org.jetbrains.kotlin:kotlin-annotation-processing": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "runtime": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "runtimeClasspath": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "testCompile": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "testCompileClasspath": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "testRuntime": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    },
+    "testRuntimeClasspath": {
+        "org.funktionale:funktionale-partials": {
+            "locked": "1.1",
+            "requested": "+"
+        },
+        "org.jetbrains.kotlin:kotlin-stdlib-jre8": {
+            "locked": "1.1.51",
+            "requested": "1.1.51"
+        }
+    }
+}

@@ -1,20 +1,14 @@
-buildscript {
-  repositories {
-    jcenter()
-  }
-  dependencies {
-    classpath "com.netflix.nebula:nebula-kotlin-plugin:$kotlinVersion"
-  }
+plugins {
+  id "nebula.kotlin" version "1.1.51"
+  id "nebula.dependency-lock" version "4.9.5"
 }
-
-apply plugin: "nebula.kotlin"
 
 repositories {
   jcenter()
 }
 
 dependencies {
-  compile "org.funktionale:funktionale-partials:1.1"
+  compile "org.funktionale:funktionale-partials:+"
 }
 
 configurations.all {
@@ -29,7 +23,7 @@ configurations.all {
 
 compileKotlin {
   kotlinOptions {
-    languageVersion = "1.2"
+    languageVersion = "1.1"
     jvmTarget = "1.8"
   }
 }

@@ -9,6 +9,14 @@ buildscript {
 
 apply plugin: "nebula.kotlin"
 
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile "org.funktionale:funktionale-partials:1.1"
+}
+
 configurations.all {
   resolutionStrategy {
     eachDependency { details ->

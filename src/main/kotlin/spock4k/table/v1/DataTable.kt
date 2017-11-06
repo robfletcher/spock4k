@@ -1,4 +1,4 @@
-package spock4k
+package spock4k.table.v1
 
 import org.funktionale.partials.partially1
 

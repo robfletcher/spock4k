@@ -37,7 +37,9 @@ private class Parameters2<in P1, in P2>(private val body: (P1, P2) -> Unit) {
   private val tests = mutableListOf<() -> Unit>()
 
   fun data(p1: P1, p2: P2) {
-    tests.add(body.partially1(p1).partially1(p2))
+    tests += body
+      .partially1(p1)
+      .partially1(p2)
   }
 
   fun toTestSuite(): Iterable<() -> Unit> = tests.toList()
@@ -58,7 +60,10 @@ private class Parameters3<in P1, in P2, in P3>(private val body: (P1, P2, P3) ->
   private val tests = mutableListOf<() -> Unit>()
 
   fun data(p1: P1, p2: P2, p3: P3) {
-    tests.add(body.partially1(p1).partially1(p2).partially1(p3))
+    tests += body
+      .partially1(p1)
+      .partially1(p2)
+      .partially1(p3)
   }
 
   fun toTestSuite(): Iterable<() -> Unit> = tests.toList()

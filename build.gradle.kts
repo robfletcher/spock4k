@@ -6,6 +6,8 @@ plugins {
   application
 }
 
+val kotlinVersion by project
+
 repositories {
   jcenter()
 }
@@ -13,8 +15,6 @@ repositories {
 dependencies {
   compile("org.funktionale:funktionale-partials:+")
 }
-
-val kotlinVersion by project
 
 configurations.all {
   resolutionStrategy {
